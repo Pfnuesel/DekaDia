@@ -1,0 +1,95 @@
+@font-face { font-family: Anarchaos; src: url('Anarchaos.otf'); };
+
+#newfont {
+    font-family: "Anarchaos";
+}
+
+h1 {
+    font: 60px "Anarchaos";
+}
+
+h2 {
+    font-family: "Courier New";
+}
+
+p {
+    font-family: "Courier New";
+}
+
+body {
+    background-color: #434242;
+}
+
+/* table */
+
+th, td {
+    border: 1px;
+    border-style: dotted;
+    font-family: "Courier New";
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* box*/
+
+.wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+    
+}
+
+.content {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    
+}
+
+.footer {
+    background-color: #ba7167;
+    text-align: center;
+    color: white;
+    font-family: "Courier New";
+}
+/* Menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: "Courier New";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #41413f;
+}
+
+.active {
+    background-color: #ba7167;
+}
