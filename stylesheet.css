@@ -17,7 +17,7 @@ p {
 }
 
 body {
-    background-color: #434242;
+    background-color: #770354;
     
 }
 
@@ -60,7 +60,7 @@ table {
 }
 
 .footer {
-    background-color: #ba7167;
+    background-color: #430430;
     text-align: center;
     color: white;
     font-family: "Courier New";
@@ -93,7 +93,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #ba7167;
+    background-color: rgba(152, 2, 107, 0.44);
 }
 
 /*Gallery*/
